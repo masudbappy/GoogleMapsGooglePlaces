@@ -66,6 +66,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             }else {
                 ActivityCompat.requestPermissions(this,permissions,LOCATION_PERMISSION_REQUEST_CODE);
             }
+        }else {
+            ActivityCompat.requestPermissions(this,permissions,LOCATION_PERMISSION_REQUEST_CODE);
         }
     }
 
